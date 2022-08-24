@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang.xsd
+        http://www.springframework.org/schema/util  http://www.springframework.org/schema/lang/spring-util.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<!--    通过set注入属性
+    <bean id="user" class="com.zwzhong.entity.User">
+        <property name="name" value="zwzhong"></property>
+        <property name="password" value="123456"></property>
+    </bean>     -->
+
+<!--    通过有参构造注入属性
+    <bean id="user" class="com.zwzhong.entity.User">
+        <constructor-arg name="name" value="zwzhong"></constructor-arg>
+        <constructor-arg name="password" value="123456"></constructor-arg>
+    </bean> -->
+
+<!--    p名称空间注入
+    <bean id="user" class="com.zwzhong.entity.User" p:name="zwzhong" p:password="123456">
+    </bean>-->
+
+<!--    注入其他类型的属性
+    字面量
+    <bean id="user" class="com.zwzhong.entity.User">
+        <property name="name"><null/></property>
+        <property name="password">
+            <value><![CDATA[这里面可以输入特殊字符等!~<>?]]></value>
+        </property>
+    </bean>
+
+    外部bean
+    <bean id="book" class="com.zwzhong.entity.Book">
+        <property name="author" value="作者"></property>
+    </bean>
+    <bean id="user" class="com.zwzhong.entity.User">
+        <property name="name" value="zwzhong"></property>
+        <property name="password" value="123456"></property>
+        <property name="book" ref="book"></property>
+    </bean>
+
+    注入内部bean
+    <bean id="user" class="com.zwzhong.entity.User">
+        <property name="name" value="zwzhong"></property>
+        <property name="password" value="123456"></property>
+        <property name="book">
+            <bean id="book" class="com.zwzhong.entity.Book"></bean>
+        </property>
+    </bean>-->
+
+<!--    bean注入集合类型
+    <util:list id="common">
+        <list>
+            <ref bean="book1"></ref>
+            <ref bean="book2"></ref>
+        </list>
+    </util:list>
+    <bean id="book1" class="com.zwzhong.entity.Book">
+        <property name="author" value="第一本书"></property>
+    </bean>
+    <bean id="book2" class="com.zwzhong.entity.Book">
+        <property name="author" value="第二本书"></property>
+    </bean>
+    <bean id="stu" class="com.zwzhong.entity.Stu">
+        <property name="names">
+            <array>
+                <value>张三</value>
+                <value>李四</value>
+            </array>
+        </property>
+        <property name="list" ref="common">
+           <list>
+                   <ref bean="book1"></ref>
+                    <ref bean="book2"></ref>
+             </list>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="身高" value="160"></entry>
+                <entry key="体重" value="160"></entry>
+            </map>
+        </property>
+    </bean>-->
+<!--
+    <bean id="beanlife" class="com.zwzhong.entity.BeanLife" init-method="initMethod" destroy-method="destory">
+        <property name="beanname" value="bean-name"></property>
+    </bean>
+    配置后置处理器
+    <bean id="beanpost" class="com.zwzhong.entity.BeanPost"> </bean>
+    -->
+<!--    自动装配
+    <bean id="book1" class="com.zwzhong.entity.Book">
+        <property name="author" value="作者"></property>
+    </bean>
+    <bean id="user" class="com.zwzhong.entity.User" autowire="byType">
+    </bean>-->
+
+    <!-- 配置连接池
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="473878009"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/zhong"></property>
+    </bean>-->
+
+<!--引入外部配置文件
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driverClassName}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+    </bean>  -->
+
+<!--    开启注解扫描-->
+    <context:component-scan base-package="com.zwzhong"></context:component-scan>
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
