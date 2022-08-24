@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="376ac622-36ae-49df-b504-6f4ab96021c4" name="Changes" comment="" />
+    <list default="true" id="376ac622-36ae-49df-b504-6f4ab96021c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/AOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/mysql-connector-java-8.0.27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/spring-aop-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/spring-beans-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/spring-context-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/spring-core-5.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOP/lib/spring-expression-5.2.6.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -25,6 +41,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="2DjbfYCUwV6lym6S0eRjGkectmR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -35,8 +54,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/IOC/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AOP/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -44,6 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-project\Spring5\AOP\lib" />
+      <recent name="E:\java-project\Spring5\AOP" />
       <recent name="E:\java-project\Spring5\IOC\lib" />
       <recent name="E:\java-project\Spring5\IOC\src\lib" />
     </key>
@@ -53,67 +75,16 @@
       <recent name="E:\java-project\Spring5\IOC" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test1.TestUser">
-    <configuration name="Test1.TestAnnotations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IOC" />
+  <component name="RunManager" selected="JUnit.TestAop.TestBaseXml">
+    <configuration name="JDKUserProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zwzhong.proxy.JDKUserProxy" />
+      <module name="AOP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zwzhong.test.*" />
+          <option name="PATTERN" value="com.zwzhong.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.Test1" />
-      <option name="METHOD_NAME" value="TestAnnotations" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.TestBeanLife" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IOC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwzhong.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.Test1" />
-      <option name="METHOD_NAME" value="TestBeanLife" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.TestDataSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IOC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwzhong.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.Test1" />
-      <option name="METHOD_NAME" value="TestDataSource" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1.TestSpringConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IOC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwzhong.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.Test1" />
-      <option name="METHOD_NAME" value="TestSpringConfig" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,6 +105,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAop.TestBaseXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwzhong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.TestAop" />
+      <option name="METHOD_NAME" value="TestBaseXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAop.TestConfigAop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwzhong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.TestAop" />
+      <option name="METHOD_NAME" value="TestConfigAop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAop.TestProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwzhong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.TestAop" />
+      <option name="METHOD_NAME" value="TestProxy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Spring5" />
       <method v="2">
@@ -149,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAop.TestBaseXml" />
+        <item itemvalue="JUnit.TestAop.TestConfigAop" />
+        <item itemvalue="JUnit.TestAop.TestProxy" />
+        <item itemvalue="Application.JDKUserProxy" />
         <item itemvalue="JUnit.Test1.TestUser" />
-        <item itemvalue="JUnit.Test1.TestSpringConfig" />
-        <item itemvalue="JUnit.Test1.TestAnnotations" />
-        <item itemvalue="JUnit.Test1.TestDataSource" />
-        <item itemvalue="JUnit.Test1.TestBeanLife" />
       </list>
     </recent_temporary>
   </component>
@@ -167,10 +186,22 @@
       <updated>1661215547526</updated>
       <workItem from="1661215549309" duration="20176000" />
       <workItem from="1661303580058" duration="20000" />
+      <workItem from="1661341597116" duration="7546000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
