@@ -4,21 +4,6 @@
     <list default="true" id="376ac622-36ae-49df-b504-6f4ab96021c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/com/zwzhong/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/com/zwzhong/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/com/zwzhong/dao/imp/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/com/zwzhong/dao/imp/UserDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/com/zwzhong/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/com/zwzhong/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/com/zwzhong/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/com/zwzhong/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/com/zwzhong/proxy/BookProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/com/zwzhong/proxy/BookProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/com/zwzhong/proxy/JDKUserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/com/zwzhong/proxy/JDKUserProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AOP/src/com/zwzhong/proxy/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/AOP/src/com/zwzhong/proxy/UserProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC/src/com/zwzhong/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOC/src/com/zwzhong/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC/src/com/zwzhong/dao/UserDaoImp/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOC/src/com/zwzhong/dao/UserDaoImp/UserDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC/src/com/zwzhong/entity/BeanLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOC/src/com/zwzhong/entity/BeanLife.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC/src/com/zwzhong/entity/BeanPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOC/src/com/zwzhong/entity/BeanPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC/src/com/zwzhong/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOC/src/com/zwzhong/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC/src/com/zwzhong/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOC/src/com/zwzhong/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IOC/src/com/zwzhong/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/IOC/src/com/zwzhong/test/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JdbcTemplate/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Transaction" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -69,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java-project\Spring5\Transaction" />
       <recent name="E:\java-project\Spring5\JdbcTemplate\lib" />
       <recent name="E:\java-project\Spring5\AOP\lib" />
       <recent name="E:\java-project\Spring5\AOP" />
       <recent name="E:\java-project\Spring5\IOC\lib" />
-      <recent name="E:\java-project\Spring5\IOC\src\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java-project\Spring5\IOC\src" />
@@ -81,7 +66,23 @@
       <recent name="E:\java-project\Spring5\IOC" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestDao.testQueryAllUser">
+  <component name="RunManager" selected="JUnit.TestAccount.testAccount">
+    <configuration name="TestAccount.testAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwzhong.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
+      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.TestAccount" />
+      <option name="METHOD_NAME" value="testAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDao.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JdbcTemplate" />
       <extension name="coverage">
@@ -93,22 +94,6 @@
       <option name="PACKAGE_NAME" value="com.zwzhong.test" />
       <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.TestDao" />
       <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDao.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JdbcTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zwzhong.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zwzhong.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zwzhong.test.TestDao" />
-      <option name="METHOD_NAME" value="testDelete" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAccount.testAccount" />
         <item itemvalue="JUnit.TestDao.testQueryAllUser" />
         <item itemvalue="JUnit.TestDao.testQueryOneUser" />
         <item itemvalue="JUnit.TestDao.testAdd" />
         <item itemvalue="JUnit.TestDao.testUpdate" />
-        <item itemvalue="JUnit.TestDao.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +181,7 @@
       <workItem from="1661215549309" duration="20176000" />
       <workItem from="1661303580058" duration="20000" />
       <workItem from="1661341597116" duration="7922000" />
-      <workItem from="1661561150259" duration="7373000" />
+      <workItem from="1661561150259" duration="12068000" />
     </task>
     <servers />
   </component>
