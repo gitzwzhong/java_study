@@ -39,7 +39,7 @@ public class User {
     }
 
     public void testMethod(){
-        System.out.println("测试方法");
+        System.out.prIntegerln("测试方法");
     }
 
     @Override

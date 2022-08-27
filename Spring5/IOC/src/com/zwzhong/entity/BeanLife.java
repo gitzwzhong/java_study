@@ -4,7 +4,7 @@ public class BeanLife {
     private String beanname;
 
     public BeanLife() {
-        System.out.println("构造器方法执行");
+        System.out.prIntegerln("构造器方法执行");
     }
 
     public BeanLife(String beanname) {
@@ -12,17 +12,17 @@ public class BeanLife {
     }
 
     public void initMethod(){
-        System.out.println("init方法执行");
+        System.out.prIntegerln("init方法执行");
     }
     public void destory(){
-        System.out.println("destory方法执行");
+        System.out.prIntegerln("destory方法执行");
     }
     public String getBeanname() {
         return beanname;
     }
 
     public void setBeanname(String beanname) {
-        System.out.println("set方法执行");
+        System.out.prIntegerln("set方法执行");
         this.beanname = beanname;
     }
 

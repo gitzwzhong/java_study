@@ -11,7 +11,7 @@ public class UserService {
     UserDaoImp userDaoImp;
 
     public void userService(){
-        System.out.println("service层");
+        System.out.prIntegerln("service层");
         userDaoImp.userDao();
     }
 }

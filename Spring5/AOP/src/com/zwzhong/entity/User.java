@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class User {
     public void login(){
-        System.out.println("需要被增强的方法");
+        System.out.prIntegerln("需要被增强的方法");
 //        制造异常,观察环绕通知
-//        int a=10/0;
+//        Integer a=10/0;
     }
 }

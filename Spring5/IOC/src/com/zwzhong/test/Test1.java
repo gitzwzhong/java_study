@@ -19,20 +19,20 @@ public class Test1 {
     public void TestUser() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
         User user = context.getBean("user", User.class);
-        System.out.println(user);
+        System.out.prIntegerln(user);
     }
     @Test
     public void TestStu() {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
         Stu stu = context.getBean("stu", Stu.class);
-        System.out.println(stu);
+        System.out.prIntegerln(stu);
     }
     @Test
     public void TestBeanLife() {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
         BeanLife beanlife = context.getBean("beanlife", BeanLife.class);
-        System.out.println("获取创建的bean的实例对象");
-        System.out.println(beanlife);
+        System.out.prIntegerln("获取创建的bean的实例对象");
+        System.out.prIntegerln(beanlife);
 //        关闭容器
         context.close();
     }
@@ -40,7 +40,7 @@ public class Test1 {
     public void TestDataSource() throws SQLException {
         ApplicationContext context=new ClassPathXmlApplicationContext("bean1.xml");
         DruidDataSource dataSource = context.getBean("dataSource", DruidDataSource.class);
-        System.out.println(dataSource.getConnection());
+        System.out.prIntegerln(dataSource.getConnection());
     }
     @Test
     public void TestAnnotations(){

@@ -2,6 +2,6 @@ package com.zwzhong.entity;
 
 public class Book {
     public void addBook(){
-        System.out.println("添加图书方法");
+        System.out.prIntegerln("添加图书方法");
     }
 }

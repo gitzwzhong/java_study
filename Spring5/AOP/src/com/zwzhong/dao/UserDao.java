@@ -1,5 +1,5 @@
 package com.zwzhong.dao;
 
-public interface UserDao {
+public Integererface UserDao {
     public String login(String username,String password);
 }

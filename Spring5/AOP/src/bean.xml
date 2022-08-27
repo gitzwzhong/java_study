@@ -15,10 +15,10 @@
 <!--    配置aop增强-->
     <aop:config>
 <!--        配置切入点-->
-        <aop:pointcut id="point" expression="execution(* com.zwzhong.entity.Book.addBook(..))"/>
+        <aop:poIntegercut id="poInteger" expression="execution(* com.zwzhong.entity.Book.addBook(..))"/>
 <!--        配置切面-->
         <aop:aspect ref="bookProxy">
-            <aop:before method="before" pointcut-ref="point"></aop:before>
+            <aop:before method="before" poIntegercut-ref="poInteger"></aop:before>
         </aop:aspect>
     </aop:config>
 </beans>

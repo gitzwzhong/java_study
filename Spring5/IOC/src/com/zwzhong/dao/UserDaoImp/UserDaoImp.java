@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 public class UserDaoImp implements UserDao {
     @Override
     public void userDao() {
-        System.out.println("dao层");
+        System.out.prIntegerln("dao层");
     }
 }

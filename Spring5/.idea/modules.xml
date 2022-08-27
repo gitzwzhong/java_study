@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AOP/AOP.iml" filepath="$PROJECT_DIR$/AOP/AOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOC/IOC.iml" filepath="$PROJECT_DIR$/IOC/IOC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JdbcTemplate/JdbcTemplate.iml" filepath="$PROJECT_DIR$/JdbcTemplate/JdbcTemplate.iml" />
     </modules>
   </component>
 </project>
