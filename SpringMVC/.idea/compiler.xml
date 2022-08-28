@@ -7,11 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Introduce" />
+        <module name="Request" />
+        <module name="View" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demo1" target="8" />
       <module name="Introduce" target="8" />
+      <module name="Request" target="8" />
+      <module name="RequestMappingAndGetParams" target="8" />
+      <module name="View" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

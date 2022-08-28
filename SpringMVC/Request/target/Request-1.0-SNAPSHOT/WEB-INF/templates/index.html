@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+<a th:href="@{/testRest/1}">测试占位符</a><br>
+<a th:href="@{/testParams(username='张三',password='123456')}">测试请求参数的获取</a><br>
+<form th:action="@{/testPojo}" method="post">
+    用户名:<input type="text" name="username"><br>
+    密码:<input type="password" name="password">
+    <input type="submit" value="提交">
+</form>
+<a th:href="@{/testServletAPI}">域对象共享数据</a><br>
+<a th:href="@{/testModelAndView}">ModelAndView</a><br>
+<a th:href="@{/testModel}">测试Model</a><br>
+<a th:href="@{/testModelMap}">测试ModelMap</a><br>
+<a th:href="@{/testSession}">测试Session</a><br>
+<a th:href="@{/testApplication}">测试Application</a>
+</body>
+</html>
