@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/File" />
     <file type="web" url="file://$PROJECT_DIR$/Introduce" />
     <file type="web" url="file://$PROJECT_DIR$/Request" />
     <file type="web" url="file://$PROJECT_DIR$/RequestMappingAndGetParams" />
@@ -13,6 +14,7 @@
         <option value="$PROJECT_DIR$/RequestMappingAndGetParams/pom.xml" />
         <option value="$PROJECT_DIR$/Request/pom.xml" />
         <option value="$PROJECT_DIR$/View/pom.xml" />
+        <option value="$PROJECT_DIR$/File/pom.xml" />
       </list>
     </option>
   </component>

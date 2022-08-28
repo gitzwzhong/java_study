@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Introduce" />
         <module name="Request" />
+        <module name="Introduce" />
         <module name="View" />
+        <module name="File" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demo1" target="8" />
+      <module name="File" target="8" />
       <module name="Introduce" target="8" />
       <module name="Request" target="8" />
       <module name="RequestMappingAndGetParams" target="8" />
